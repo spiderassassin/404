@@ -1,3 +1,6 @@
 import requests
-requests.get("http://google.com")
+print(requests.__version__)
+print(requests.get("http://google.com").content)
+
+
 
